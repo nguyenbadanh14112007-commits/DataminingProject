@@ -1,0 +1,12 @@
+# Ghi chu lam viec giua toi va Claude, khong commit
+*.md
+
+# Moi truong ao va cache Python
+.venv/
+__pycache__/
+*.pyc
+
+# Du lieu da tai / da lam sach va ket qua sinh ra
+# data/
+# output/
+.ipynb_checkpoints/

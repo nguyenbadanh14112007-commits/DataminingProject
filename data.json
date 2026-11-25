@@ -1,0 +1,19 @@
+[
+  {"No": 1, "Name": "Bulbasaur", "Type1": "Grass", "Type2": "Poison", "Height": 0.7, "Weight": 6.9, "Legendary": 0},
+  {"No": 2, "Name": "Ivysaur", "Type1": "Grass", "Type2": "Poison", "Height": 1.0, "Weight": 13.0, "Legendary": 0},
+  {"No": 3, "Name": "Venusaur", "Type1": "Grass", "Type2": "Poison", "Height": 2.0, "Weight": 100.0, "Legendary": 0},
+  {"No": 4, "Name": "Charmander", "Type1": "Fire", "Type2": null, "Height": 0.6, "Weight": 8.5, "Legendary": 0},
+  {"No": 5, "Name": "Charmeleon", "Type1": "Fire", "Type2": null, "Height": 1.1, "Weight": 19.0, "Legendary": 0},
+  {"No": 6, "Name": "Charizard", "Type1": "Fire", "Type2": "Flying", "Height": 1.7, "Weight": 90.5, "Legendary": 0},
+  {"No": 7, "Name": "Squirtle", "Type1": "Water", "Type2": null, "Height": 0.5, "Weight": 9.0, "Legendary": 0},
+  {"No": 8, "Name": "Wartortle", "Type1": "Water", "Type2": null, "Height": 1.0, "Weight": 22.5, "Legendary": 0},
+  {"No": 9, "Name": "Blastoise", "Type1": "Water", "Type2": null, "Height": 1.6, "Weight": 85.5, "Legendary": 0},
+  {"No": 10, "Name": "Caterpie", "Type1": "Bug", "Type2": null, "Height": 0.3, "Weight": 2.9, "Legendary": 0},
+  {"No": 11, "Name": "Metapod", "Type1": "Bug", "Type2": null, "Height": 0.7, "Weight": 9.9, "Legendary": 0},
+  {"No": 12, "Name": "Butterfree", "Type1": "Bug", "Type2": "Flying", "Height": 1.1, "Weight": 32.0, "Legendary": 0},
+  {"No": 13, "Name": "Weedle", "Type1": "Bug", "Type2": "Poison", "Height": 0.3, "Weight": 3.2, "Legendary": 0},
+  {"No": 14, "Name": "Kakuna", "Type1": "Bug", "Type2": "Poison", "Height": 0.6, "Weight": 10.0, "Legendary": 0},
+  {"No": 15, "Name": "Beedrill", "Type1": "Bug", "Type2": "Poison", "Height": 1.0, "Weight": 29.5, "Legendary": 0},
+  {"No": 16, "Name": "Pidgey", "Type1": "Normal", "Type2": "Flying", "Height": 0.3, "Weight": 1.8, "Legendary": 0},
+  {"No": 17, "Name": "Pidgeotto", "Type1": "Normal", "Type2": "Flying", "Height": 1.1, "Weight": 30.0, "Legendary": 0}
+]
