@@ -181,16 +181,9 @@ def add_lag_features(df, horizon):
             same = same.fillna(g.shift(k).where(same_promo[k]))
         df[f'{col}_same_promo'] = same
 
-    new_cols = [c for c in lag_columns(horizon)]
+    new_cols = lag_columns(horizon)
     df[new_cols] = df[new_cols].astype('float32')       # nhẹ bộ nhớ; notebook và web cùng một kiểu số
     return df
-
-
-def build_dataset(raw, horizon, competition_median=2325.0):
-    """Gộp các bước 2–4: dữ liệu gốc → bảng đặc trưng đầy đủ cho một horizon."""
-    full = make_full_calendar(raw)
-    full = add_features(full, competition_median)
-    return add_lag_features(full, horizon)
 
 
 def is_trainable(df):
