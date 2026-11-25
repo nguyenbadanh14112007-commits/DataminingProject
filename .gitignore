@@ -1,4 +1,20 @@
-/.venv
-data/processed/
+# Repo chi chua do an PredictRevenue: bo qua moi thu khac o thu muc goc
+/*
+!/.gitignore
+!/PredictRevenue/
+
+# Ghi chu lam viec giua toi va Claude, khong commit (tru README cua do an)
+*.md
+!README.md
+
+# Moi truong ao va cache Python
+.venv/
 __pycache__/
+*.pyc
 .ipynb_checkpoints/
+.idea/
+
+# File trung gian lon (GitHub chan file > 100 MB), tao lai bang notebook 1 va 3
+PredictRevenue/du_bao_dai_han/data/processed/rossmann_add_features.csv
+PredictRevenue/du_bao_dai_han/data/processed/rossmann_data_timeseries.csv
+PredictRevenue/du_bao_dai_han/data/processed/rossmann_clean.csv
