@@ -1,0 +1,26 @@
+{
+  "Baseline": {
+    "file": "baseline.parquet",
+    "n_features": 3
+  },
+  "Hybrid": {
+    "file": "hybrid.parquet",
+    "n_features": 51
+  },
+  "LightGBM": {
+    "file": "lightgbm.parquet",
+    "n_features": 33
+  },
+  "Ridge": {
+    "file": "ridge.parquet",
+    "n_features": 93
+  },
+  "Random Forest": {
+    "file": "random_forest.parquet",
+    "n_features": 33
+  },
+  "XGBoost": {
+    "file": "xgboost.parquet",
+    "n_features": 33
+  }
+}
